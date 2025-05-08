@@ -78,7 +78,11 @@ python mqtt_client.py (inside env itself)
                 "status": "active"
                 }
 
+<img width="312" alt="{C53A3487-6CA3-49D5-96D0-1181FA7881A2}" src="https://github.com/user-attachments/assets/99280de3-5e00-4edd-ac99-85c1edc8c807" />
 
+<img width="668" alt="{345481BE-7773-48D6-8832-D2A6232ABE19}" src="https://github.com/user-attachments/assets/57319e86-89a2-4940-9fb4-d2e5749fb430" />
+
+<img width="665" alt="{93BD2F38-DA8E-4FD3-A4D2-A40134CF1B2C}" src="https://github.com/user-attachments/assets/6dc9e020-c981-49ba-a8ef-abcb8d1f69d7" />
 
 
 
