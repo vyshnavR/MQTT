@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sensor Dashboard</title>
+    <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+</head>
+<body>
+  <h1>Sensor Data </h1>
+
+  <form id="filter-form"hx-get="/filtered-data/"  hx-target="#data-table"  hx-trigger="change delay:300ms">
+    <label for="device_id">Device ID:</label>
+    <input type="text" name="device_id" id="device_id" placeholder="sensor_001" />
+
+    <label for="ordering">Order:</label>
+    <select name="ordering" id="ordering">
+      <option value="-timestamp">Newest First</option>
+      <option value="timestamp">Oldest First</option>
+    </select>
+  </form>
+
+  <div id="data-table" hx-get="/filtered-data/" hx-trigger="load">
+
+  </div>
+</body>
+</html>

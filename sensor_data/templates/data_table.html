@@ -1,0 +1,21 @@
+<table border="1">
+    <tr>
+      <th>Device ID</th>
+      <th>Timestamp</th>
+      <th>Temperature</th>
+      <th>Humidity</th>
+      <th>Status</th>
+    </tr>
+    {% for entry in data %}
+    <tr>
+      <td>{{ entry.device_id }}</td>
+      <td>{{ entry.timestamp }}</td>
+      <td>{{ entry.temperature }}</td>
+      <td>{{ entry.humidity }}</td>
+      <td>{{ entry.status }}</td>
+    </tr>
+    {% empty %}
+    <tr><td colspan="5">No data found.</td></tr>
+    {% endfor %}
+  </table>
+  
