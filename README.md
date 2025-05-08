@@ -1,4 +1,4 @@
-# Django MQTT Integration Test
+# Django MQTT 
 
 This project is a Django-based application that subscribes to an MQTT topic, processes incoming sensor data, stores it in a database, and displays it on a web dashboard with optional filtering. It also exposes a REST API using Django REST Framework.
 
